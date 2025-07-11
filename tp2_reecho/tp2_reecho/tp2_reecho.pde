@@ -1,15 +1,15 @@
 //VARIABLES
-boolean apareciendo;
+//boolean apareciendo;
 float   multiplo, multiploalpha;
 PImage Imag1, Imag2, Imag3, Imag4, Imag5, Imag6, Imag7;
-int movimiento, imagActual,intervalo, tiempoInicio, alpha;
-String Text1, Text2, Text3, Text4, Text5, Text6, Text7;
+int movimiento, imagActual,intervalo, tiempoInicio; //alpha;
+String Text1, Text2, Text3, Text4, Text5, Text6; //Text7;
 PFont miFuente;
 void setup() {
   size(640, 480);
   miFuente = createFont("Agency",32);
   textFont(miFuente);
-apareciendo = true;
+//apareciendo = true;
   textSize(40);
   //ASIGNACION
   frameRate(40);
@@ -75,6 +75,3 @@ void mouseClicked() {
   movimiento= 0;
   
 }
-
-  
-  
